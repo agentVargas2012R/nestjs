@@ -13,4 +13,7 @@ export class Lesson {
 
   @Column()
   endDate: string;
+
+  @Column('text', { array: true, nullable: true })
+  students: string[];
 }
