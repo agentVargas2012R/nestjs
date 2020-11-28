@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { ObjectType, Field, ID } from "@nestjs/graphql";
-import { Student } from 'src/student/student.type';
+import { Student } from '../student/student.type';
 
 @ObjectType('Lesson')
 export class Lesson {

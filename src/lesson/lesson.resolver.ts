@@ -11,6 +11,7 @@ import { CreateLessonInput } from './lesson.input';
 import { LessonService } from './lesson.service';
 import { Lesson } from './lesson.type';
 import { StudentService } from '../student/student.service';
+import { UseGuards } from '@nestjs/common';
 
 @Resolver((of) => Lesson)
 export class LessonResolver {
